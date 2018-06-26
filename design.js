@@ -2,9 +2,9 @@
 function setup() {
   createCanvas(400, 400);
 }
+var draw = function() {
 fill(114, 219, 139);
 var howBig = 46;
-var draw = function() {
     howBig = howBig - 26;
     textSize(howBig);
     background(255, 0, 102);
