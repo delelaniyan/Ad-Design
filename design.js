@@ -1,4 +1,7 @@
 // string = text
+function setup() {
+  createCanvas(400, 400);
+}
 fill(114, 219, 139);
 var howBig = 46;
 var draw = function() {
